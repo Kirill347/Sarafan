@@ -1,0 +1,37 @@
+{
+  "name": "sarafan",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "@sentry/browser": "^5.21.1",
+    "@sentry/integrations": "^5.21.1",
+    "@stomp/stompjs": "^5.4.4",
+    "sockjs-client": "^1.4.0",
+    "vue": "^2.6.11",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.4.2",
+    "vuetify": "^2.3.7",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.1",
+    "deepmerge": "^4.2.2",
+    "fibers": "^5.0.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.3",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.2"
+  },
+  "license": "MIT"
+}
